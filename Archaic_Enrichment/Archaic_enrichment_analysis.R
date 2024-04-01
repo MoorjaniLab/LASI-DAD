@@ -6,7 +6,7 @@ library(ggpattern)
 library(dplyr)
 library(tidyr)
 
-setwd("/Users/elisekerdoncuff/Documents/LASI-DAD/Analyses/Archaic/Archaic_Frequencies")
+setwd("/LASI-DAD/Archaic_Enrichment/")
 
 ##import data
 data_ND_LASIDAD_EUR_EAS = read.table('archaic_freq_perpop_LASIDAD_1000G_EUROPE_EASTASIA_0.8_PHASED.txt', header = T, sep = '\t')
