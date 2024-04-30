@@ -213,3 +213,17 @@ ggplot() +
   scale_color_manual(values=col_regions_cousins,guide = 'none')+
   geom_text(aes(label=text_cousins,x=pos_x_cousin+1,color=text_cousins),y=104,size=5)+  theme_light(base_size = 20)+
   theme(legend.title=element_blank())
+
+###
+## LoF
+###
+file_hbd_homlof_LASIDAD="LASI_DAD2620_homozygous_missense_LoF.txt"
+hbd_homlof_LASIDAD=read_table(file_hbd_homlof_LASIDAD,col_names = T)
+
+
+ggplot(data=hbd_homlof_LASIDAD,aes(x=sum_sup2,y=Hom_tot))+geom_point(aes(col=Region))+
+  scale_color_manual(labels=label_regions,values=col_regions,limits=order_regions_LASIDAD)+
+  xlab("Sum of HBD segments (above 2cM)")+ylab("Number of homozygote LoF/missense variants")+
+  geom_smooth(method = "glm" )+
+  theme_light(base_size = 20)+
+  theme(legend.title=element_blank())
