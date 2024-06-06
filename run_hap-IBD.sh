@@ -1,3 +1,4 @@
+#!/bin/sh
 
 for chr in {1..22}
 do
