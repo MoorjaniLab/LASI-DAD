@@ -1,3 +1,4 @@
+#!/bin/sh
 ##Script to create the parfile and to run ALDER, to download : https://groups.csail.mit.edu/cb/alder/
 #Need data in eigentrat format, more about the format : https://reich.hms.harvard.edu/software/InputFileFormats
 
