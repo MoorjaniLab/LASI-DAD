@@ -1,3 +1,4 @@
+#!/bin/sh
 ##Script to create a parfile and run SMARTPCA, part of the EIGENSOFT package, can be download here: https://github.com/DReichLab/EIG
 #Need data in eigentrat format, more about the format : https://reich.hms.harvard.edu/software/InputFileFormats
 
