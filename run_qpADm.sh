@@ -1,3 +1,4 @@
+#!/bin/sh
 ##Script to create a parfile and run qpAdm with our without the "allsnps:YES" option
 ## Software part of the ADMIXTOOLS package, can be download here: https://github.com/DReichLab/AdmixTools
 #Need data in eigentrat format, more about the format : https://reich.hms.harvard.edu/software/InputFileFormats
