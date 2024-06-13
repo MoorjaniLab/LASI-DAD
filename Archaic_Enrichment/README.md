@@ -1,2 +1,1 @@
-R script and data to produce the enrichment analysis in LASI-DAD.
-The figure 3.C in the main text as well as the Population Branch Statistic in the supplementary (Figure S7.5).
+R script to perform the archaic enrichment analysis in LASI-DAD: high frequency and Population Branch Statistic.
