@@ -1,5 +1,5 @@
 ####
-## PBS analysis (+ plot of high archaic frequency)
+## PBS analysis (+ high archaic frequency)
 # PBS in POP1 compared to REF1 and REF2. Here POP1= LASI-DAD, REF1 = 1000G_EUR and REF2 = 1000G_EAS
 # N or NEA = Neanderthal, D or DEN = Denisovan.
 #
